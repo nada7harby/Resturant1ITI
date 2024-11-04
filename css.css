@@ -253,3 +253,86 @@ button:hover {
   flex-direction: column;
   padding: 40px 0;
 }
+.AboutHero {
+  padding: 30px 100px;
+}
+.about {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.about .contentAbout {
+  margin-right: 30px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.about .contentAbout h4 {
+  text-transform: uppercase;
+}
+.about .contentAbout h1 {
+  font-size: 40px;
+}
+.about .imageAbout {
+  padding: 20px;
+}
+.about .imageAbout img {
+  height: 500px;
+  border-radius: 20px;
+}
+.AboutBody .contactPhone h1,
+.AboutBody .contactPhone p {
+  width: 65%;
+  text-align: center;
+}
+
+.AboutBody .contactPhone p {
+  margin: 10px 0;
+}
+.AboutType {
+  display: flex;
+  padding: 30px 100px;
+
+  justify-content: space-evenly;
+}
+
+.AboutType > div {
+  width: calc(100% / 4);
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: 50% 50%;
+  background-color: #f1ae0e;
+  height: 200px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.15)
+    ),
+    url(imgs/bg1.jpg);
+  background-size: cover;
+}
+.AboutType div h3 {
+  color: #fff;
+}
+.AboutType > div:nth-child(2) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.15)
+    ),
+    url(imgs/img4.jpeg);
+}
+.AboutType > div:nth-child(3) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.15)
+    ),
+    url(imgs/bg7.jpg);
+}

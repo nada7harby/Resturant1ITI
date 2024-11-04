@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+  transition: 0.2s;
+}
+img {
+  width: 100%;
+}
+body {
+  background-color: #f9f6ee;
+}
+.nav ul {
+  display: flex;
+  justify-content: center;
+}
+.nav ul li {
+  list-style: none;
+  margin: 15px 25px;
+}
+.nav li a {
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+.nav li a:hover,
+.nav .active {
+  color: #f1ae0e;
+}
+.secHero {
+  /* padding: 50px; */
+  margin: 0 108.8px;
+}
+.hero {
+  background-image: url("imgs/bg5.jpg");
+  background-repeat: no-repeat;
+  background-position: 71.36% 50%;
+  background-size: cover;
+  border-radius: 20px;
+  /* height: 500px; */
+  padding: 20px 50px;
+}
+.discount {
+  padding: 20px;
+  margin: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  width: 20%;
+  text-align: center;
+  background-color: #99e54d;
+  border-radius: 50%;
+  width: 225px;
+  height: 225px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.discount h1 {
+  color: #000;
+}
+.hero h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 20px 0;
+  font-size: 25px;
+}
+.hero h1 {
+  color: #fff;
+  font-size: 60px;
+  width: 50%;
+  margin: 30px 0;
+}
+button {
+  background-color: #f1ae0e;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  background-image: none;
+  margin: 30px auto 0 0;
+  padding: 16px 46px 17px;
+  border: none;
+}
+button:hover {
+  color: #111111 !important;
+  background-color: #f9de9b;
+}
+
+.secMenu {
+  padding: 20px 30px;
+  margin: 20px 40px;
+}
+
+.Menu h1 {
+  text-align: center;
+  margin: 30px;
+  padding: 40px;
+  font-size: 3rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 40px #000;
+  text-transform: uppercase;
+}
+.Menu h1:hover {
+  color: #f1ae0e;
+  text-shadow: 2px 2px 40px #f1ae0e;
+}
+.Menu .items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0 50px;
+}
+
+.Menu .items div {
+  width: 220px;
+  text-align: center;
+  margin: 10px 0;
+}
+.Menu .items div img {
+  border-radius: 20px;
+  height: 260px;
+}
+.Menu .items div h2 {
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+.contactPhone {
+  background-color: #99e54d;
+  padding: 30px 60px;
+}
+.contactPhone div {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+.contactPhone div h1 {
+  font-size: 40px;
+  margin: 10px 0px;
+}
+.contactPhone div p {
+  font-size: 20px;
+}
+.contactPhone div.phone {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.contactPhone div.phone span i {
+  color: #f1ae0e;
+  margin: 0 10px;
+  font-size: 40px;
+}
+.contactPhone div.phone p {
+  font-size: 40px;
+}
+.contactPhone div.phone p:hover {
+  color: #99e54d;
+}
+.offer {
+  margin: 50px 100px;
+}
+.offer div {
+  background-repeat: no-repeat;
+  background-position: 71.36% 50%;
+  background-size: cover;
+  border-radius: 20px;
+  /* height: 500px; */
+  padding: 150px 50px;
+  color: #fff;
+}
+.offer div h3 {
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.offer div h1 {
+  font-size: 50px;
+  width: 50%;
+  color: #fff;
+}
+.offer div p {
+  width: 50%;
+  margin: 20px 0;
+  font-size: 20px;
+}
+.offer div p span {
+  color: #f1ae0e;
+  cursor: pointer;
+}
+
+.contactPhone div.phone input {
+  margin: 0 10px;
+  width: 400px;
+  margin-top: 27px;
+}
+.AllData {
+  margin: 50px 200px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.AllData div:nth-child(1) h1 {
+  font-size: 55px;
+}
+.AllData .data > div {
+  display: flex;
+  justify-content: space-around;
+}
+.AllData .data {
+ padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.AllData .data > div div:nth-child(1) {
+  background-color: #99e54d;
+  border-radius: 50%;
+  padding: 20px;
+  font-size: 20px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+
+}
+.AllData i{
+               font-size: 30px;
+}
+
+.AllData .data > div div:nth-child(2) p{
+               margin: 10px 0;
+}
+.footer {
+               background-color: #333333;
+               color: #fff;
+               height: 150px;
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+               flex-direction: column;
+               padding: 40px 0;
+
+}

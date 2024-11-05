@@ -338,9 +338,8 @@ button:hover {
 }
 
 .MenuBody .ourMenu {
-  margin: 100px 80px ;
+  margin: 100px;
   text-align: center;
-
 }
 .MenuBody .ourMenu h1 {
   font-size: 40px;
@@ -368,4 +367,5 @@ button:hover {
 .MenuBody .ourMenu > div .Menuabout {
   text-align: start;
   width: 50%;
+ 
 }

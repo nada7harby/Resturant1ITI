@@ -47,7 +47,7 @@ body {
 }
 .discount {
   padding: 20px;
-  margin: 20px;
+  margin: 20px 0px;
   font-size: 30px;
   font-weight: 700;
   width: 20%;
@@ -207,7 +207,7 @@ button:hover {
   margin-top: 27px;
 }
 .AllData {
-  margin: 50px 200px;
+  margin: 50px 110px;
   background-color: #fff;
   padding: 30px;
   border-radius: 20px;
@@ -337,19 +337,19 @@ button:hover {
     url(imgs/bg7.jpg);
 }
 
- .ourMenu {
+.ourMenu {
   margin: 100px;
   text-align: center;
 }
- .ourMenu h1 {
+.ourMenu h1 {
   font-size: 40px;
 }
- .ourMenu > div {
+.ourMenu > div {
   display: flex;
   justify-content: space-evenly;
   /* padding: 50px 0; */
 }
- .ourMenu > div .menuImg {
+.ourMenu > div .menuImg {
   width: 40%;
   height: auto;
   object-fit: cover;
@@ -357,15 +357,55 @@ button:hover {
   align-items: center;
   padding: 50px 0;
 }
- .ourMenu img {
+.ourMenu img {
   border-radius: 20px;
   height: 100%;
 }
- .ourMenu h3 {
+.ourMenu h3 {
   padding: 20px 0;
 }
- .ourMenu > div .Menuabout {
+.ourMenu > div .Menuabout {
   text-align: start;
   width: 50%;
- 
+}
+
+.chefs {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.chefs > div {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+  text-align: center;
+}
+.chefs div img {
+  border-radius: 20px;
+  height: 382px;
+  width: 350px;
+  /* margin: 0 auto; */
+}
+.chefs div img:hover {
+  transform: scale(1.1);
+}
+.chefs > div h3 {
+  padding-top: 20px;
+  position: relative;
+  z-index: 3;
+}
+.chefs > div p {
+  padding: 15px 0;
+}
+.chefs > div i {
+  font-size: 20px;
+  padding: 0 10px;
+  color: rgb(78, 78, 253);
 }

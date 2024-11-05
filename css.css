@@ -336,3 +336,36 @@ button:hover {
     ),
     url(imgs/bg7.jpg);
 }
+
+.MenuBody .ourMenu {
+  margin: 100px 80px ;
+  text-align: center;
+
+}
+.MenuBody .ourMenu h1 {
+  font-size: 40px;
+}
+.MenuBody .ourMenu > div {
+  display: flex;
+  justify-content: space-evenly;
+  /* padding: 50px 0; */
+}
+.MenuBody .ourMenu > div .menuImg {
+  width: 40%;
+  height: auto;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  padding: 50px 0;
+}
+.MenuBody .ourMenu img {
+  border-radius: 20px;
+  height: 100%;
+}
+.MenuBody .ourMenu h3 {
+  padding: 20px 0;
+}
+.MenuBody .ourMenu > div .Menuabout {
+  text-align: start;
+  width: 50%;
+}
